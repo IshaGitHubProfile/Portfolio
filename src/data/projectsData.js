@@ -1,6 +1,6 @@
-import Ecommerce from "../assets/images/portfolio/Ecommerce.jpeg";
-import Weather from "../assets/images/portfolio/weather.png";
-import Myntra from "../assets/images/portfolio/myntra.png";
+import Ecommerce from "../assets/images/portfolio/Ecommerce2.png";
+import Movie from "../assets/images/portfolio/movie.png";
+import Code from "../assets/images/portfolio/code.png";
 
 const projectsData = [
   {
@@ -15,23 +15,23 @@ const projectsData = [
   },
   {
     id: "url-shortener",
-    img: Weather,
-    name: "Weather App",
-    stack: ["< HTML5 />", "< CSS />", "< JavaScript />", "< RESTful API />","< Express.js />","< Node.js />"],
-    src: "https://catherineisonline.github.io/url-shortening-api-frontendmentor/",
-    source: "https://github.com/IshaGitHubProfile/Weather-App",
+    img: Movie,
+    name: "Movie App",
+    stack: ["< React.js />", "< SCSS />", "< JavaScript />", "< RESTful API />"],
+    src: "https://movie-six-sigma.vercel.app/",
+    source: "https://github.com/IshaGitHubProfile/Movies-Database-Application",
     description:
-      "Developed a dynamic Weather App using Node.js and Express.js, integrated with the OpenWeather API to provide real-time weather information for diverse global cities.",
+      "This React and Redux-based movie database app uses the TMDB API. Users can explore trending, top-rated, and popular movies and TV shows, view detailed information, and search for titles. The Explore page allows filtering by genres, rating, and popularity.",
   },
   {
     id: "bankist",
-    img: Myntra,
-    name: "Myntra Functional Clone",
-    stack: ["< Java Script />", "< CSS3 />", "< HTML5 />"],
-    src: "https://bankist-bank.vercel.app/",
-    source: "https://github.com/IshaGitHubProfile/MyntraFunctionalClone",
+    img: Code,
+    name: "Real Time Code Editor",
+    stack: ["< React.js />", "< Node.js />", "< Express.js />","< Socket.io />"],
+    src: "https://bankist-bank.vercel.app/l",
+    source: "https://github.com/IshaGitHubProfile/realtime-editor",
     description:
-      "Clone of Myntra Website where Users can effortlessly add their favorite items to the cart, mimicking the real shopping experience. The dynamic addition and removal of items contribute to the interactivity of the platform. The project dynamically calculates and displays the final price based on the items added to the cart, ensuring transparency in the shopping process.",
+      "Real-Time Code Editor is a collaborative web-based code editor that allows multiple users to edit the same code simultaneously in real-time. It is built using React, Node.js, Express.js, and Socket.io.",
   },
 ];
 
